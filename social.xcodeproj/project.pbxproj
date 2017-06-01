@@ -12,6 +12,7 @@
 		7C9B0A611ED9D8150083D5BF /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B0A601ED9D8150083D5BF /* RoundBtn.swift */; };
 		7C9B0A631ED9D9E10083D5BF /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B0A621ED9D9E10083D5BF /* FancyField.swift */; };
 		7C9B0A651ED9DADA0083D5BF /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B0A641ED9DADA0083D5BF /* FancyBtn.swift */; };
+		7CDE45DF1EE00D8A00D98B60 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE45DE1EE00D8A00D98B60 /* FeedVC.swift */; };
 		7CEE66E61ED8512D0041DB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE66E51ED8512D0041DB79 /* AppDelegate.swift */; };
 		7CEE66E81ED8512D0041DB79 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE66E71ED8512D0041DB79 /* SignInVC.swift */; };
 		7CEE66EB1ED8512D0041DB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE66E91ED8512D0041DB79 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		7C9B0A601ED9D8150083D5BF /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		7C9B0A621ED9D9E10083D5BF /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		7C9B0A641ED9DADA0083D5BF /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		7CDE45DE1EE00D8A00D98B60 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		7CEE66E21ED8512D0041DB79 /* social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = social.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEE66E51ED8512D0041DB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CEE66E71ED8512D0041DB79 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				7CEE66E71ED8512D0041DB79 /* SignInVC.swift */,
+				7CDE45DE1EE00D8A00D98B60 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				7CEE66E81ED8512D0041DB79 /* SignInVC.swift in Sources */,
 				7C9B0A611ED9D8150083D5BF /* RoundBtn.swift in Sources */,
 				7CEE66E61ED8512D0041DB79 /* AppDelegate.swift in Sources */,
+				7CDE45DF1EE00D8A00D98B60 /* FeedVC.swift in Sources */,
 				7C9B0A5C1ED9D5E70083D5BF /* FancyView.swift in Sources */,
 				7C9B0A5F1ED9D65B0083D5BF /* Constants.swift in Sources */,
 				7C9B0A651ED9DADA0083D5BF /* FancyBtn.swift in Sources */,
