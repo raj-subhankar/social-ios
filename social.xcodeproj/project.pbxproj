@@ -15,6 +15,7 @@
 		7CA64E371EE929000059F76C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA64E361EE929000059F76C /* CircleView.swift */; };
 		7CA64E391EE936750059F76C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA64E381EE936750059F76C /* PostCell.swift */; };
 		7CA64E3C1EEAECDD0059F76C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA64E3B1EEAECDD0059F76C /* DataService.swift */; };
+		7CDD11E51EF6D7080081F925 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD11E41EF6D7080081F925 /* Post.swift */; };
 		7CDE45DF1EE00D8A00D98B60 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE45DE1EE00D8A00D98B60 /* FeedVC.swift */; };
 		7CEE66E61ED8512D0041DB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE66E51ED8512D0041DB79 /* AppDelegate.swift */; };
 		7CEE66E81ED8512D0041DB79 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE66E71ED8512D0041DB79 /* SignInVC.swift */; };
@@ -35,6 +36,7 @@
 		7CA64E361EE929000059F76C /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		7CA64E381EE936750059F76C /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7CA64E3B1EEAECDD0059F76C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7CDD11E41EF6D7080081F925 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7CDE45DE1EE00D8A00D98B60 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		7CEE66E21ED8512D0041DB79 /* social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = social.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEE66E51ED8512D0041DB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		7CEE66F91ED853A70041DB79 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7CDD11E41EF6D7080081F925 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				7CA64E371EE929000059F76C /* CircleView.swift in Sources */,
 				7C9B0A631ED9D9E10083D5BF /* FancyField.swift in Sources */,
 				7CEE66E81ED8512D0041DB79 /* SignInVC.swift in Sources */,
+				7CDD11E51EF6D7080081F925 /* Post.swift in Sources */,
 				7C9B0A611ED9D8150083D5BF /* RoundBtn.swift in Sources */,
 				7CEE66E61ED8512D0041DB79 /* AppDelegate.swift in Sources */,
 				7CA64E3C1EEAECDD0059F76C /* DataService.swift in Sources */,
