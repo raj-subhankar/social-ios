@@ -19,17 +19,28 @@ class Post {
         return _imageUrl
     }
 
-    var caption: String {
-        return _caption
-    }
-    
     var likes: Int {
-        return _likes
+        if let unWrappedLikes = self._likes{
+            return unWrappedLikes
+        }
+        else{
+            return 0
+        }
     }
     
     var postKey: String {
         return _postKey
     }
+    
+    var caption: String {
+        if let unWrappedCaption = self._caption{
+            return unWrappedCaption
+        }
+        else{
+            return ""
+        }
+    }
+    
     
     init(caption: String, imageUrl: String, likes: Int) {
         self._caption = caption
